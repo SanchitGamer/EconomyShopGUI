@@ -1,0 +1,15 @@
+enable: true
+slot: 41
+title: ''
+hidden: true
+sub-section: false
+display-item: false 
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: BEDROCK
+  displayname: Z_EverythingElse
+  name: Z_EverythingElse
+ 
