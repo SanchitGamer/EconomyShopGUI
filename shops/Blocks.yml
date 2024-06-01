@@ -1,25 +1,25 @@
 pages:
   page1:
     items:
-      '1112':
+      "1112":
         material: GRAY_STAINED_GLASS_PANE
-      '1113':
+      "1113":
         material: GRAY_STAINED_GLASS_PANE
-      '1114':
+      "1114":
         material: GRAY_STAINED_GLASS_PANE
-      '1115':
+      "1115":
         material: GRAY_STAINED_GLASS_PANE
-      '1116':
+      "1116":
         material: GRAY_STAINED_GLASS_PANE
-      '1117':
+      "1117":
         material: GRAY_STAINED_GLASS_PANE
-      '1118':
+      "1118":
         material: GRAY_STAINED_GLASS_PANE
-      '1119': 
+      "1119":
         material: GRAY_STAINED_GLASS_PANE
-      '1120': 
+      "1120":
         material: GRAY_STAINED_GLASS_PANE
-      '1121': 
+      "1121":
         material: GRAY_STAINED_GLASS_PANE
       # '1':
       #   material: CALCITE
@@ -35,12 +35,12 @@ pages:
       #   sell: 11.82
       "4":
         material: HONEY_BLOCK
-        buy: 33.34
-        sell: 8.34
+        buy: 33
+        sell: 8
       "5":
         material: MAGMA_BLOCK
-        buy: 33.63
-        sell: 8.41
+        buy: 20
+        sell: 6
       # '6':
       #   material: PACKED_ICE
       #   buy: 13.5
@@ -51,24 +51,24 @@ pages:
       #   sell: 0.25
       "8":
         material: SLIME_BLOCK
-        buy: 47.25
-        sell: 11.82
+        buy: 47
+        sell: 11
       "9":
         material: SNOW_BLOCK
-        buy: 12.6
-        sell: 3.15
+        buy: 12
+        sell: 3
       "10":
         material: SOUL_SAND
         buy: 10
-        sell: 2.5
+        sell: 5
       # '11':
       #   material: TNT
       #   buy: 106.58
       #   sell: 26.65
       "12":
         material: ANDESITE
-        buy: 0.72
-        sell: 0.18
+        buy: 10
+        sell: 5
       # '13':
       #   material: ANDESITE_SLAB
       #   buy: 0.38
@@ -91,11 +91,11 @@ pages:
       #   sell: 0.19
       "18":
         material: BAMBOO_BLOCK
-        buy: 0.95
-        sell: 0.24
-      '121':
+        buy: 11
+        sell: 5
+      "121":
         material: GRAY_STAINED_GLASS_PANE
-      '122':
+      "122":
         material: GRAY_STAINED_GLASS_PANE
       # '19':
       #   material: BAMBOO_MOSAIC
@@ -123,8 +123,8 @@ pages:
       #   sell: 0.2
       "26":
         material: BLACKSTONE
-        buy: 0.75
-        sell: 0.19
+        buy: 15
+        sell: 6
       # '27':
       #   material: BLACKSTONE_SLAB
       #   buy: 0.4
@@ -159,12 +159,12 @@ pages:
       #   sell: 0.2
       "35":
         material: BOOKSHELF
-        buy: 119.12
-        sell: 29.78
+        buy: 120
+        sell: 35
       "36":
         material: CHISELED_BOOKSHELF
-        buy: 8.77
-        sell: 2.2
+        buy: 15
+        sell: 5
       # '37':
       #   material: BRICK_SLAB
       #   buy: 48.63
@@ -175,11 +175,11 @@ pages:
       #   sell: 24.32
       "39":
         material: BRICKS
-        buy: 92.61
-        sell: 23.16
+        buy: 86
+        sell: 20
       "50":
         material: BASALT
-        buy: 40
+        buy: 25
         sell: 10
       "52":
       #   material: COBBLESTONE_SLAB
@@ -191,8 +191,8 @@ pages:
       #   sell: 0.18
       "54":
         material: MOSSY_COBBLESTONE
-        buy: 8.07
-        sell: 2.02
+        buy: 10
+        sell: 4
       "55":
       #   material: MOSSY_COBBLESTONE_SLAB
       #   buy: 4.24
@@ -261,11 +261,11 @@ pages:
       #   sell: 1.97
       "71":
         material: WHITE_CONCRETE
-        buy: 8.01
-        sell: 2.01
-      '1211':
+        buy: 35
+        sell: 10
+      "1211":
         material: GRAY_STAINED_GLASS_PANE
-      '1222':
+      "1222":
         material: GRAY_STAINED_GLASS_PANE
       # '72':
       #   material: YELLOW_CONCRETE
@@ -341,8 +341,8 @@ pages:
       #   sell: 0.52
       "90":
         material: COBBLED_DEEPSLATE
-        buy: 0.68
-        sell: 0.17
+        buy: 20
+        sell: 4
       # "91":
       #   material: COBBLED_DEEPSLATE_SLAB
       #   buy: 0.36
@@ -353,8 +353,8 @@ pages:
       #   sell: 0.18
       "93":
         material: DEEPSLATE
-        buy: 0.72
-        sell: 0.18
+        buy: 10
+        sell: 3
       # "94":
       #   material: DEEPSLATE_TILE_SLAB
       #   buy: 0.42
@@ -369,8 +369,8 @@ pages:
       #   sell: 0.2
       "97":
         material: DIORITE
-        buy: 0.72
-        sell: 0.18
+        buy: 7
+        sell: 6
       # "98":
       #   material: DIORITE_SLAB
       #   buy: 0.38
@@ -391,16 +391,16 @@ pages:
       #   material: POLISHED_DIORITE_STAIRS
       #   buy: 0.75
       #   sell: 0.19
-  # page3:
-  #   items:
+      # page3:
+      #   items:
       "103":
         material: CLAY
         buy: 21
-        sell: 5.25
+        sell: 7
       "104":
         material: CRIMSON_NYLIUM
         buy: 6
-        sell: 1.5
+        sell: 3
       # "105":
       #   material: DIRT
       #   buy: 3
@@ -417,67 +417,67 @@ pages:
         material: PODZOL
         buy: 8
         sell: 2
-    
+
       "108":
         material: MYCELIUM
         buy: 8
         sell: 2
-      '111':
+      "111":
         material: GRAY_STAINED_GLASS_PANE
-      '112':
+      "112":
         material: GRAY_STAINED_GLASS_PANE
-      '113':
+      "113":
         material: GRAY_STAINED_GLASS_PANE
-      '114':
+      "114":
         material: GRAY_STAINED_GLASS_PANE
-      '115':
+      "115":
         material: GRAY_STAINED_GLASS_PANE
-      '116':
+      "116":
         material: GRAY_STAINED_GLASS_PANE
-      '117':
+      "117":
         material: GRAY_STAINED_GLASS_PANE
-      '118':
+      "118":
         material: GRAY_STAINED_GLASS_PANE
-      '119': 
+      "119":
         material: GRAY_STAINED_GLASS_PANE
-      '120':
+      "120":
         material: GRAY_STAINED_GLASS_PANE
-      '1221': 
+      "1221":
         material: GRAY_STAINED_GLASS_PANE
-      '12322':
-        material: GRAY_STAINED_GLASS_PANE 
-      '2120':
+      "12322":
         material: GRAY_STAINED_GLASS_PANE
-      '2121': 
+      "2120":
         material: GRAY_STAINED_GLASS_PANE
-      '2122':
-        material: GRAY_STAINED_GLASS_PANE 
+      "2121":
+        material: GRAY_STAINED_GLASS_PANE
+      "2122":
+        material: GRAY_STAINED_GLASS_PANE
   page2:
     items:
-      '1112':
+      "1112":
         material: GRAY_STAINED_GLASS_PANE
-      '1113':
+      "1113":
         material: GRAY_STAINED_GLASS_PANE
-      '1114':
+      "1114":
         material: GRAY_STAINED_GLASS_PANE
-      '1115':
+      "1115":
         material: GRAY_STAINED_GLASS_PANE
-      '1116':
+      "1116":
         material: GRAY_STAINED_GLASS_PANE
-      '1117':
+      "1117":
         material: GRAY_STAINED_GLASS_PANE
-      '1118':
+      "1118":
         material: GRAY_STAINED_GLASS_PANE
-      '1119': 
+      "1119":
         material: GRAY_STAINED_GLASS_PANE
-      '1120': 
+      "1120":
         material: GRAY_STAINED_GLASS_PANE
-      '1121': 
+      "1121":
         material: GRAY_STAINED_GLASS_PANE
       "110":
         material: WARPED_NYLIUM
         buy: 6
-        sell: 1.5
+        sell: 2
       # "111":
       #   material: END_STONE
       #   buy: 5
@@ -496,20 +496,20 @@ pages:
       #   sell: 1.32
       "115":
         material: GLASS
-        buy: 6.3
-        sell: 1.58
+        buy: 7
+        sell: 3
       # "116":
       #   material: GLASS_PANE
       #   buy: 2.49
       #   sell: 0.63
       "117":
         material: TINTED_GLASS
-        buy: 6.07
-        sell: 1.52
+        buy: 12
+        sell: 4
       "118":
         material: GRANITE
-        buy: 0.72
-        sell: 0.18
+        buy: 5
+        sell: 2
       # "119":
       #   material: GRANITE_SLAB
       #   buy: 0.38
@@ -532,8 +532,8 @@ pages:
       #   sell: 0.19
       "124":
         material: GLOWSTONE
-        buy: 29.4
-        sell: 7.35
+        buy: 35
+        sell: 5
       # "125":
       #   material: MUD
       #   buy: 3.19
@@ -572,15 +572,15 @@ pages:
       #   sell: 0.24
       "134":
         material: NETHER_BRICKS
-        buy: 0.89
-        sell: 0.23
+        buy: 12
+        sell: 5
       "137":
         material: RED_NETHER_BRICKS
-        buy: 8.16
-        sell: 2.04
-      '121':
+        buy: 10
+        sell: 5
+      "121":
         material: GRAY_STAINED_GLASS_PANE
-      '122':
+      "122":
         material: GRAY_STAINED_GLASS_PANE
       # "135":
       #   material: RED_NETHER_BRICK_SLAB
@@ -592,16 +592,16 @@ pages:
       #   sell: 2.14
       "138":
         material: CRYING_OBSIDIAN
-        buy: 62.5
-        sell: 15.63
+        buy: 60
+        sell: 12
       # "139":
       #   material: OBSIDIAN
       #   buy: 31.25
       #   sell: 7.82
       "140":
         material: PRISMARINE
-        buy: 29.4
-        sell: 7.35
+        buy: 30
+        sell: 5
       # "141":
       #   material: PRISMARINE_SLAB
       #   buy: 15.44
@@ -624,14 +624,14 @@ pages:
       #   sell: 16.54
       "146":
         material: DARK_PRISMARINE
-        buy: 64.05
-        sell: 16.02
+        buy: 64
+        sell: 16
       # "147":
       #   material: DARK_PRISMARINE_SLAB
       #   buy: 33.63
       #   sell: 8.41
-  # page4:
-  #   items:
+      # page4:
+      #   items:
       # "148":
       #   material: DARK_PRISMARINE_STAIRS
       #   buy: 67.26
@@ -650,8 +650,8 @@ pages:
       #   sell: 0.87
       "152":
         material: QUARTZ_BRICKS
-        buy: 36.47
-        sell: 9.12
+        buy: 36
+        sell: 9
       # "153":
       #   material: QUARTZ_SLAB
       #   buy: 18.24
@@ -670,15 +670,15 @@ pages:
       #   sell: 1.5
       "169":
         material: STONE
-        buy: 0.72
-        sell: 0.18
+        buy: 10
+        sell: 3
       "157":
         material: SANDSTONE
         buy: 12
         sell: 3
-      '1213':
+      "1213":
         material: GRAY_STAINED_GLASS_PANE
-      '1223':
+      "1223":
         material: GRAY_STAINED_GLASS_PANE
       # "158":
       #   material: SANDSTONE_SLAB
@@ -687,7 +687,7 @@ pages:
       # "159":
       #   material: SANDSTONE_STAIRS
       #   buy: 12.6
-      #   sell: 3.15 
+      #   sell: 3.15
       # "160":
       #   material: SMOOTH_SANDSTONE
       #   buy: 12.6
@@ -758,12 +758,12 @@ pages:
       #   sell: 2.04
       "178":
         material: TERRACOTTA
-        buy: 22.05
-        sell: 5.52
+        buy: 22
+        sell: 5
       "179":
         material: TUFF
         buy: 2
-        sell: 0.5
+        sell: 1
       # "180":
       #   material: ACACIA_LOG
       #   buy: 3
@@ -806,8 +806,8 @@ pages:
       #   sell: 1.05
       "190":
         material: CRIMSON_HYPHAE
-        buy: 4.2
-        sell: 1.05
+        buy: 5
+        sell: 2
       # "191":
       #   material: CRIMSON_PLANKS
       #   buy: 0.79
@@ -816,8 +816,8 @@ pages:
       #   material: CRIMSON_SLAB
       #   buy: 0.42
       #   sell: 0.11
-  # page5:
-  #   items:
+      # page5:
+      #   items:
       # "193":
       #   material: CRIMSON_STAIRS
       #   buy: 1.25
@@ -825,7 +825,7 @@ pages:
       "194":
         material: CRIMSON_STEM
         buy: 3
-        sell: 0.75
+        sell: 2
       # "195":
       #   material: DARK_OAK_LOG
       #   buy: 3
@@ -948,8 +948,8 @@ pages:
       #   sell: 1.05
       "228":
         material: WARPED_HYPHAE
-        buy: 4.2
-        sell: 1.05
+        buy: 8
+        sell: 2
       # "229":
       #   material: WARPED_PLANKS
       #   buy: 0.79
@@ -964,101 +964,101 @@ pages:
       #   sell: 0.32
       "232":
         material: WARPED_STEM
-        buy: 3
-        sell: 0.75
-  #     "233":
-  #       material: BLACK_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "234":
-  #       material: BLUE_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "235":
-  #       material: BROWN_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "236":
-  #       material: CYAN_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "237":
-  #       material: GRAY_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "238":
-  #       material: GREEN_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "239":
-  #       material: LIGHT_BLUE_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "240":
-  #       material: LIGHT_GRAY_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  # page6:
-  #   items:
-  #     "241":
-  #       material: LIME_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "242":
-  #       material: MAGENTA_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "243":
-  #       material: ORANGE_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "244":
-  #       material: PINK_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "245":
-  #       material: PURPLE_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
-  #     "246":
-  #       material: RED_WOOL
-  #       buy: 29.4
-  #       sell: 7.35
+        buy: 5
+        sell: 2
+      #     "233":
+      #       material: BLACK_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "234":
+      #       material: BLUE_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "235":
+      #       material: BROWN_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "236":
+      #       material: CYAN_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "237":
+      #       material: GRAY_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "238":
+      #       material: GREEN_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "239":
+      #       material: LIGHT_BLUE_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "240":
+      #       material: LIGHT_GRAY_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      # page6:
+      #   items:
+      #     "241":
+      #       material: LIME_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "242":
+      #       material: MAGENTA_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "243":
+      #       material: ORANGE_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "244":
+      #       material: PINK_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "245":
+      #       material: PURPLE_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
+      #     "246":
+      #       material: RED_WOOL
+      #       buy: 29.4
+      #       sell: 7.35
       "247":
         material: WHITE_WOOL
-        buy: 29.4
-        sell: 7.35
+        buy: 30
+        sell: 7
       # "248":
       #   material: YELLOW_WOOL
       #   buy: 29.4
       #   sell: 7.35
-      '111':
+      "111":
         material: GRAY_STAINED_GLASS_PANE
-      '112':
+      "112":
         material: GRAY_STAINED_GLASS_PANE
-      '113':
+      "113":
         material: GRAY_STAINED_GLASS_PANE
-      '114':
+      "114":
         material: GRAY_STAINED_GLASS_PANE
-      '1135':
+      "1135":
         material: GRAY_STAINED_GLASS_PANE
-      '116':
+      "116":
         material: GRAY_STAINED_GLASS_PANE
-      '1317':
+      "1317":
         material: GRAY_STAINED_GLASS_PANE
-      '1318':
+      "1318":
         material: GRAY_STAINED_GLASS_PANE
-      '119': 
+      "119":
         material: GRAY_STAINED_GLASS_PANE
-      '120':
+      "120":
         material: GRAY_STAINED_GLASS_PANE
-      '1221': 
+      "1221":
         material: GRAY_STAINED_GLASS_PANE
-      '1222':
-        material: GRAY_STAINED_GLASS_PANE 
-      '2120':
+      "1222":
         material: GRAY_STAINED_GLASS_PANE
-      '2121': 
+      "2120":
         material: GRAY_STAINED_GLASS_PANE
-      '2122':
-        material: GRAY_STAINED_GLASS_PANE 
+      "2121":
+        material: GRAY_STAINED_GLASS_PANE
+      "2122":
+        material: GRAY_STAINED_GLASS_PANE

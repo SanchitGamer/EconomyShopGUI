@@ -177,7 +177,7 @@ spawner-provider: AUTO
 #-----------------------------------------------DiscordSRV----------------------------------------------
 
 # The DiscordSRV hook allows you to log transaction directly to a discord text channels in your guild when someone makes a transaction
-enable-discordsrv-hook: true
+enable-discordsrv-hook: false
 
 # Note: The channel configured under the 'channel' option also needs to exist inside config.yml of DiscordSRV or this won't work
 # See their documentation on how to add channels: https://docs.discordsrv.com/installation/basic-setup/#set-up-a-basic-channel-relay
@@ -242,7 +242,7 @@ drop-remaining-items-on-ground: false
 # Whether to sell shulker contents
 # When false, shulker boxes inside the player's inventory when selling items won't be emptied/sold
 # When true, the plugin will try to sell any item inside a shulker box when selling items via /sellall
-sell-shulker-boxes: false
+sell-shulker-boxes: true
 
 # Players will not be able to buy/sell items, nor use /sellall and /sellgui while inside any of the below gamemodes
 # Possible values: ADVENTURE, CREATIVE, SPECTATOR and SURVIVAL
@@ -325,19 +325,19 @@ main-menu-nav-bar:
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     3:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     4:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     5:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     6:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     7:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     8:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     9:
       material: barrier
       name: '%translations-cancel%'
@@ -355,32 +355,32 @@ shops-nav-bar:
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     3:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     4:
-      material: arrow
+      material: red_stained_glass_pane
       name: '%translations-previous-page%'
       action: PAGE_BACK
       paginated:
         enabled: true
         orElse:
-          material: GRAY_STAINED_GLASS_PANE 
+          material: GRAY_STAINED_GLASS_PANE
     5:
       material: paper
       name: '%translations-current-page%'
     6:
-      material: arrow
+      material: blue_stained_glass_pane
       name: '%translations-next-page%'
       action: PAGE_NEXT
       paginated:
         enabled: true
         orElse:
-          material: GRAY_STAINED_GLASS_PANE 
+          material: GRAY_STAINED_GLASS_PANE
     7:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     8:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     9:
       material: barrier
       name: '%translations-back%'
@@ -398,23 +398,22 @@ transaction-screens-nav-bar:
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     3:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     4:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     5:
       material: REDSTONE_TORCH
       name: '&c&lToggle buying/selling'
       action: TOGGLE_MODE
-        orElse:
-          material: GRAY_STAINED_GLASS_PANE 
+      onlyEnableForGeyserPlayers: true
     6:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     7:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     8:
-      material: GRAY_STAINED_GLASS_PANE 
+      material: GRAY_STAINED_GLASS_PANE
     9:
       material: barrier
       name: '%translations-back%'
@@ -471,13 +470,12 @@ sellgui-nav-bar:
       name: ' '
     5:
       material: NETHER_STAR
-      name: '&aSell Items'
+      name: '&a&lSellGUI'
       lore:
-      - '&7Drop items in to sell upon closing,'
-      - '&7everything will be sold.'
-      - ""
-      - '&7That item couldn''t be sold'
-      - '&7will be given back to you.'
+      - '&6Drop items in to sell'
+      - '&6upon closing, everything will be sold.'
+      - '&eItems that couldn''t be sold'
+      - '&ewill be given back to you.'
     6:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -495,7 +493,7 @@ sellgui-nav-bar:
 #---------------------------------------------ItemSettings----------------------------------------------
 
 # Allows items with a different name to be sold to the shop
-allow-renamed-items: false
+allow-renamed-items: true
 
 # Allows items with different lore to be sold to the shop
 allow-lore-items: true
@@ -971,7 +969,7 @@ shopstand-sell-screen:
 #------------------------------------------------Seasons------------------------------------------------
 
 # In combination with the plugin RealisticSeasons, it is possible to add price modifiers for items per season
-enable-seasonal-pricing: true
+enable-seasonal-pricing: false
 
 # All price modifiers below are calculated of the original price specified inside the shops.yml
 # For example: +50% on an item with buy price of $7 = (7+50%) $10.5
@@ -981,10 +979,10 @@ season-price-modifiers:
   Spring:
     Dyes:
       # Increased amount of flowers in Spring
-      all: -15%
+      all: -50%
     Food:
       # Increased amount of mobs spawn in Spring
-      all: -15%
+      all: -25%
     Blocks:
       page1:items:6: +50%
     Spawners:
@@ -1024,13 +1022,13 @@ season-price-modifiers:
 seasonal-lore:
   enabled: true
   Summer:
-    icon: '&e&l☀ '
+    icon: '&e&l☀'
   Spring:
-    icon: '&6&l☘ '
+    icon: '&6&l☘'
   Fall:
-    icon: '&c☔ '
+    icon: '&c☔'
   Winter:
-    icon: '&b&l❄ '
+    icon: '&b&l❄'
 
 
 #-----------------------------------------------Discounts-----------------------------------------------
@@ -1041,9 +1039,18 @@ enable-discounts: false
 # Here you can set all discounts active inside the shop
 # Every entry is a shop section that holds the permission nodes with its discounts
 discounts:
+  # Section blocks
+  Blocks:
+    # Players with the permission node EconomyShopGUI.discounts.vip inside your permissions system will get 20% discount on every item inside this section.
+    vip: 20
+    # Players with the permission node EconomyShopGUI.discounts.gold inside your permissions system will get 5% discount on every item inside this section.
+    gold: 5
+  Farming:
+    vip: 15
+  Redstone:
+    diamond: 30
   all:
-    vip: 5
-    horizion: 15
+    coal: 2.5
 # If a player has for example access to 2 permission discounts inside the same shop section, the discount with the highest value will be active
 
 
@@ -1141,7 +1148,7 @@ enable-joinmessage: false
 #-----------------------------------------------LevelEvent----------------------------------------------
 
 # Here you can enable or disable the LevelEvent
-enable-levelevent: true
+enable-levelevent: false
 
 # Here you can set the amount of money a player gets when he is level 5, 10, 15
 leveleventmoney5/10/15: 10
@@ -1169,7 +1176,7 @@ allow-spawner-type-change: false
 player-placed-spawners-drop-exp: false
 
 # This option defines whether the default spawner provider should be able to mine vanilla spawners aswell
-only-mine-plugin-spawners: true
+only-mine-plugin-spawners: false
 
 # Set the items that are allowed to break a spawner
 # If a spawner gets broken with another item then listed here, the spawner will not be given to the player

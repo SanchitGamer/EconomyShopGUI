@@ -23,48 +23,48 @@ pages:
         material: GRAY_STAINED_GLASS_PANE
       '1':
         material: APPLE
-        buy: 10
-        sell: 2.5
+        buy: 15
+        sell: 7
       '2':
         material: BREAD
-        buy: 15.75
-        sell: 3.94
+        buy: 15
+        sell: 3
       '3':
         material: CAKE
-        buy: 79.32
-        sell: 19.83
+        buy: 79
+        sell: 19
       '21': 
         material: BEETROOT_SOUP
-        buy: 38.72
-        sell: 9.68
+        buy: 38
+        sell: 9
       '5':
         material: COOKIE
-        buy: 2.1
-        sell: 0.53
+        buy: 10
+        sell: 3
       '6':
         material: GLISTERING_MELON_SLICE
         buy: 8
         sell: 2
       '7':
         material: GLOW_BERRIES
-        buy: 1
-        sell: 0.25
+        buy: 5
+        sell: 3
       '11':
         material: GRAY_STAINED_GLASS_PANE
       '12':
         material: GRAY_STAINED_GLASS_PANE
       '8': 
         material: GOLDEN_CARROT
-        buy: 12.2
-        sell: 3.05
+        buy: 25
+        sell: 5
       '9': 
         material: HONEY_BOTTLE
-        buy: 7.94
-        sell: 1.99 
+        buy: 20
+        sell: 10
       '10':
         material: BAKED_POTATO
-        buy: 5.25
-        sell: 1.32 
+        buy: 10
+        sell: 5
       
       # '11':
       #   material: COOKED_BEEF
@@ -88,32 +88,32 @@ pages:
       #   sell: 1.58
       '16':
         material: BEEF
-        buy: 6
-        sell: 1.5 
+        buy: 10
+        sell: 5
       '17':  
         material: CHICKEN
-        buy: 6
-        sell: 1.5
+        buy: 10
+        sell: 5
       '18':
         material: MUTTON
-        buy: 6
-        sell: 1.5
+        buy: 10
+        sell: 5
       '19':
         material: PORKCHOP
-        buy: 6
-        sell: 1.5 
+        buy: 10
+        sell: 5
       '211':
         material: GRAY_STAINED_GLASS_PANE
       '212':
         material: GRAY_STAINED_GLASS_PANE
       '20':
         material: RABBIT
-        buy: 6
-        sell: 1.5
+        buy: 10
+        sell: 5
       '4':
         material: SALMON
-        buy: 6.3
-        sell: 1.58
+        buy: 10
+        sell: 5
       '111':
         material: GRAY_STAINED_GLASS_PANE
       '112':
